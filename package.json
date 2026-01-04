@@ -1,0 +1,24 @@
+{
+  "name": "zk-jwt-login",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@zk-email/circuits": "^6.3.4",
+    "@zk-email/helpers": "^6.4.2",
+    "@zk-email/jwt-tx-builder-circuits": "^0.1.0",
+    "circomlib": "^2.0.5",
+    "snarkjs": "^0.7.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
